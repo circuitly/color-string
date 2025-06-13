@@ -1,12 +1,13 @@
 {
-  "name": "color-string",
+  "name": "@circuitly/color-string",
   "description": "Parser and generator for CSS color strings",
   "version": "2.0.1",
   "author": "Heather Arthur <fayearthur@gmail.com>",
   "contributors": [
     "Maxime Thirouin",
     "Dyma Ywanov <dfcreative@gmail.com>",
-    "Josh Junon"
+    "Josh Junon",
+    "Joseph Eagar"
   ],
   "repository": "Qix-/color-string",
   "type": "module",

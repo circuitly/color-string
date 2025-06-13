@@ -9,6 +9,11 @@ for (const name in colorNames) {
 	}
 }
 
+cs.registerKeyword = function(name, color) {
+	colorNames[name] = color
+	reverseNames[colorNames[name]] = name
+}
+
 const cs = {
 	to: {},
 	get: {},

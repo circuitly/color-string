@@ -1,6 +1,8 @@
 export type Model = 'rgb' | 'hsl' | 'hwb';
 
 export type ColorString = {
+	/** color should be [0-255,0-255,0-255,0-1] */
+	registerKeyword(name: string, color: [number, number, number] | [number, number, number, number]): void
 	get: {
 		(color: string): {model: Model; value: number[]} | null;
 		rgb: (color: string) => number[] | null;
